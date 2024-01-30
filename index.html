@@ -28,46 +28,46 @@
 <body>
  
     <!-- --------------- HEADER --------------- -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><b>Sindhu </b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="#home">Home</a>
+    
+        <!-- --------------- HEADER --------------- -->
+          <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Sindhu</p>
+                
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
                     </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
                     </li>
-                   
-                   
-                    
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!--Navbar End-->
+            <div class="nav-button">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
 
-        <!-- <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div> -->
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-        </div>
-      </nav>
 
-   <div class="container"
+
+
+    
+    <div class="container">
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
        <!-- -------------- FEATURED BOX ---------------- -->
@@ -101,10 +101,10 @@
             </div>
           </div>
           <div class="scroll-icon-box">
-            <a href="#about" class="scroll-btn">
+            <!-- <a href="#about" class="scroll-btn">
                 <i class="uil uil-mouse-alt"></i>
                 <p>Scroll Down</p>
-            </a>
+            </a> -->
           </div>
 
        </section>
@@ -289,7 +289,7 @@
 
 
     <!-- --------------- FOOTER --------------- -->
-    <footer>
+    <!-- <footer>
         <div class="top-footer">
             <p>Sindhu .</p>
         </div>
@@ -318,7 +318,7 @@
         <div class="bottom-footer">
             <p>Copyright &copy; <a href="#home" style="text-decoration: none;color: #f5b727; " >Sindhu</a> - All rights reserved</p>
         </div>
-    </footer>
+    </footer> -->
 
     </div>
 
